@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+         <div class="nav">
+             <h1>Contact Page</h1>
+         </div>
+         <div class="sidebar">
+            <div class="contact">
+                <a href="#">Contact</a>
+            </div>
+            <div class="Charts">
+                <a href="#">Charts <br> and <br> Maps</a>
+            </div>
+            <div class="extra">
+                <p>Sidebar</p>
+            </div>
+         </div>
+         <!-- landing Page -->
+         <div class="container">
+            <div class="create-contact">
+                <h1 class="createBtn">Create Contact</h1>
+            </div>
+            <div class="alert">
+                <div class="cross"><p>X</p></div>
+                <div class="msg">
+                    <p>No Contact Found Please add contact from Create Contact Button</p>
+                </div>
+            </div>
+         </div>
+         <!-- create Contact Screen -->
+         <div class="add-contact hidden">
+            <h1>Create contact</h1>
+            <div class="form">
+                <div class="firstName fill">
+                    <h4>First Name :</h4>
+                    <input type="text" class="valueFirst">
+                </div>
+                <div class="lastName fill">
+                    <h4>Last Name :</h4>
+                    <input type="text" class="valueLast">
+                </div>
+                <div class="radio fill">
+                    <h3>Status :</h3>
+                    <div class="radioBtn">
+                         <input type="radio" id="active" name="active" value="active" class="radiovalue">
+                        <label for="active" class="label">Active</label><br>
+                        <input type="radio" id="inactive" name="active" value="inactive" class="radiovalue">
+                        <label for="inactive" class="label">inactive</label>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="saveBtn">
+                <h2>Save Contact</h2>
+            </div>
+         </div>
+         <!-- maping-->
+         <div class="map hidden">
+            <div class="tableData">
+                <p class="table">First Name</p>
+                <p class="saveFirstName">Shivam</p>
+            </div>
+            <div class="tableData">
+                <p class="table">Last Name</p>
+                <p class="saveLastName">Goswami</p>
+            </div>
+            <div class="tableData">
+                <p class="table">Status</p>
+                <p class="saveStatusName">Active</p>
+            </div>
+                
+                
+                 
+
+         </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
